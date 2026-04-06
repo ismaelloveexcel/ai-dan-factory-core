@@ -5,7 +5,7 @@ AI-DAN Factory — GitHub-native execution engine for a solo operator.
 ## Purpose
 
 A lightweight, Python-only pipeline that moves a product brief through a fixed
-set of stages: validate → discover → repo → inject → deploy → quality → monitor.
+set of stages: validate → discovery → repo → inject → deploy → quality → monitor.
 
 No frameworks. No containers. Just plain Python modules wired together by a
 single orchestrator.
