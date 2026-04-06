@@ -1,10 +1,16 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
 
 @dataclass
 class BuildBrief:
-    """Describes the input contract for a factory run."""
+    """Input contract for a factory run."""
 
+    version: str
+    project_id: str
     project_name: str
-    description: str
+    problem: str
+    solution: str
+    target_user: str
+    monetization: str
     target_repo: str
+    constraints: dict = field(default_factory=dict)
